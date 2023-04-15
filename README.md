@@ -19,10 +19,9 @@ The only purpose of Sapling is to expand the possibilities to exploit the game t
 
 ---
 
-## Dowloads 
+## Sapling Dowloads 
 
-![GitHub all releases](https://img.shields.io/github/downloads/AlecsDeveloper/Sapling/total?label=Sapling%20Downloads&style=for-the-badge)
-
+![GitHub all releases](https://img.shields.io/github/downloads/AlecsDeveloper/Sapling/total?&style=for-the-badge)
 
 ## Server Support
 <a href="https://discord.gg/96Uyt3KWT5">
