@@ -15,7 +15,7 @@ The only purpose of Sapling is to expand the possibilities to exploit the game t
 ## Sapling documentation
 
 - ## [Sapling commands](docs/commands.md)
-- ## [Installation](docs/Installation.md)
+- ## [Installation](docs/installation.md)
 
 ---
 
