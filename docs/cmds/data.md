@@ -20,7 +20,7 @@
 
 ---
 
-# deathCoumter
+# deathCounter
 
 - ## arguments: `option`
 - ## accepts: [ run, stop, get, restart ]
