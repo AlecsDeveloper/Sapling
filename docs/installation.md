@@ -21,7 +21,7 @@
 
 ### `./sapling help` or `./sapling help <module>`
 
-### `./data help` or `./data help <module>`
+### `./data help`
 
 ### `./player server guide`
 
