@@ -137,7 +137,7 @@ clicking on one of the following blocks in the list will change rotation.
 > piston - sticky piston
 > dispenser - dropper
 > comparator - repeater
-> hopper - observer
+> observer
 ```
 
 <br>
