@@ -2,6 +2,11 @@
 
 --- 
 
+![GitHub All Releases](https://img.shields.io/github/downloads/AlecsDeveloper/Sapling/total?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AlecsDeveloper/Sapling?style=for-the-badge)
+
+---
+
 ## What is Sapling?
 Sapling is an addon focused on technical mcbe players, Just like in JE with Carpet Mod, Sapling opens up a range of possibilities in the game, from fakeplayers, loot tables, etc. Each function being possible to activate using Sapling commands!
 
