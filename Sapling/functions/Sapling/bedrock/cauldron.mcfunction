@@ -1,2 +1,0 @@
-execute if block ~~~ cauldron [ "cauldron_liquid": "powder_snow", "fill_level": 6 ] run setblock ~~1~ powder_snow
-execute if block ~~~ cauldron [ "fill_level": 0 ] run setblock ~~~ cauldron [ "cauldron_liquid": "powder_snow", "fill_level": 6 ]
