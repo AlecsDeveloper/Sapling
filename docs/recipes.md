@@ -18,7 +18,7 @@
 ## minecraft:chest
 ## minecraft:packed_ice
 ## minecraft:blue_ice
-## minecraft:hoppef
+## minecraft:hopper
 ## minecraft:sticky_piston
 ## minecraft:piston
 ## minecraft:tnt
