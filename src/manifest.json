@@ -1,1 +1,37 @@
-
+{
+	"format_version": 2,
+	"header": {
+		"name": "§3Sapling §7Addon §a1.19.80+",
+		"description": "§2Developed by Alecs",
+		"uuid": "793a4d65-01a3-42a1-be3e-65d33a3c8217",
+		"min_engine_version": [1, 19, 50],
+		"version": [1, 0, 2]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "43954081-a1e3-46bd-8865-dc49b58d5a6a",
+			"version": [1, 0, 1]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "07eeb331-31a7-4182-81a4-f6b62795011e",
+			"version": [1, 0, 1]
+		}
+	],
+	"capabilities": ["script_eval"],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.2.0-beta"
+		},
+		{
+             "module_name": "@minecraft/server-gametest",
+             "version": "1.0.0-beta"
+        }
+    ]
+}
