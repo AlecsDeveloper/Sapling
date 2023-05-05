@@ -1,0 +1,95 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:tnt",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_tnt.execute_commands"
+			}
+		},
+		"component_groups": {
+			"from_explosion": {
+				"minecraft:explode": {
+					"fuse_length": {
+						"range_min": 0.5,
+						"range_max": 2
+					},
+					"fuse_lit": true,
+					"power": 4,
+					"causes_fire": false
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"tnt",
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.98,
+				"height": 0.98
+			},
+			"minecraft:explode": {
+				"fuse_length": 4,
+				"fuse_lit": true,
+				"power": 4,
+				"causes_fire": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"from_explosion": {
+				"add": {
+					"component_groups": [
+						"from_explosion"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}
