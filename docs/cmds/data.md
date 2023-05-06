@@ -16,20 +16,20 @@
 # spawnCounter
 
 - ## arguments: `option`
-- ## accepts: [ run, stop, get, restart ]
+- ## accepts: [ run, stop, get, clear ]
 
 ---
 
 # deathCounter
 
 - ## arguments: `option`
-- ## accepts: [ run, stop, get, restart ]
+- ## accepts: [ run, stop, get, clear ]
 
 ---
 
 # itemCounter
 
 - ## arguments: `option`
-- ## accepts: [ run, stop, get, restart ]
+- ## accepts: [ run, stop, get, clear ]
 
 ---
