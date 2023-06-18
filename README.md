@@ -39,4 +39,6 @@ The only purpose of Sapling is to expand the possibilities to exploit the game t
 #### [gnembon](https://github.com/gnembon) for the inspiration of his Carpet Mod.
 #### [Trapddor Plugin](https://github.com/bedrock-dev/Trapdoor) for your banner inspiration (srry, I really liked it)
 
+#### [Lite Loader Team](https://github.com/LiteLDev/LiteLoaderBDS/releases) for chunk particles, ty agno ❤️
+
 ---
