@@ -26,3 +26,7 @@
 ### `./player server guide`
 
 ---
+
+# Alternative Downloads (1.20)
+[Addon](https://github.com/AlecsDeveloper/Sapling/releases/download/Beta/SaplingAddon.mcpack)
+[CUI](https://github.com/AlecsDeveloper/Sapling/releases/download/Beta/SaplingCUI.mcpack)
